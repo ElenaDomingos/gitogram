@@ -1,0 +1,15 @@
+.stories-item {
+  width: 80px;
+}
+
+.c-story-user-item {
+  width: 80px;
+  border: none;
+  outline: none;
+  background: transparent;
+
+  & img {
+    border-radius: 50%;
+    width: 100%;
+  }
+}

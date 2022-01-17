@@ -1,0 +1,26 @@
+[
+  {
+    "id" : "0",
+    "avatar" : "https://projects.hedomi.com/1.png",
+    "username": "John Doe"
+  },
+
+  {
+    "id" : "1",
+    "avatar" : "https://projects.hedomi.com/2.png",
+    "username": "Alex Castelo"
+  },
+
+  {
+    "id" : "2",
+    "avatar" : "https://projects.hedomi.com/3.png",
+    "username": "Maja Göpel"
+  },
+  
+  {
+    "id" : "3",
+    "avatar" : "https://projects.hedomi.com/4.png",
+    "username": "Luiz Rodriges"
+  }
+
+]
