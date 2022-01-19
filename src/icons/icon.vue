@@ -8,7 +8,7 @@ import * as icons from './variants'
 export default {
   name: 'Icon',
   components: { ...icons },
-  porps: {
+  props: {
     name: {
       type: String,
       required: true,
