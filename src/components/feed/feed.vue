@@ -46,6 +46,7 @@ export default {
 
 .comment {
   &__user {
+    margin-top:32px;
     font-weight: bold;
     margin-right: 10px;
   }
@@ -59,5 +60,9 @@ export default {
     width:44px;
     margin-right:20px;
   }
+}
+
+.posts__list {
+  margin-top:32px;
 }
 </style>
