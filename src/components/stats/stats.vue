@@ -2,8 +2,8 @@
 <div class="stats">
   <div class="stats__border stats__right">
     <div class="stats__icon">
-      <icon name="stars" />
-      Star
+     <span class="stats__icon-img"> <icon name="stars" /></span>
+      <span>Star</span>
     </div>
   </div>
     <div class="stats__border">
@@ -12,8 +12,8 @@
 
      <div class="stats__border">
       <div class="stats__icon ">
-        <icon name="forks" />
-        Fork
+        <span class="stats__icon-img"><icon name="forks" /></span>
+        <span>Fork</span>
       </div>
      </div>
       <div class="stats__border stats__left">
@@ -50,20 +50,36 @@ export default {
 <style lang="scss">
 .stats {
   display:flex;
-  border-radius:14px;
   align-items: center;
+  margin-top:32px;
 
   &__border {
-    border:1px solid;
-    padding:7px;
+   background: #FAFBFC;
+   border: 1px solid rgba(27, 31, 35, 0.15);
+   padding:7px;
+   width:auto;
+
+  }
+
+  &__icon {
+       display:flex !important;
+
+  }
+
+  &__icon-img {
+
+         height:16px;
+         width:14px;
+         margin-right:5px;
   }
 
   &__left {
     border-radius:0 4px 4px 0;
   }
-
   &__right {
     border-radius:4px 0 0 4px;
+
   }
+
 }
 </style>
