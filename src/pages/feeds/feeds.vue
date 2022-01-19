@@ -21,7 +21,11 @@
             </div>
           </div>
 
-            <ul class="users">
+      </div>
+    </template>
+    <template #content>
+      <div class="container">
+      <ul class="users">
           <li class="stories-item" v-for="story in stories" :key="story.id">
             <story-user-item
             :avatar="story.avatar"
@@ -34,22 +38,19 @@
 
       </div>
     </template>
-    <template #content>
-      <div class="container">
-
-        <ul class="posts__list">
+  </topline>
+</div>
+<div class="container">
+   <ul class="posts__list">
           <li v-for="item,ndx in 5" :key="ndx" class="posts__item">
             <feed>
               <template #card><card /></template>
             </feed>
           </li>
         </ul>
-      </div>
-    </template>
-  </topline>
 </div>
-
 </template>
+
 <script>
 
 import { topline } from '../../components/topline'
@@ -79,7 +80,7 @@ export default {
 </script>
 <style lang="scss">
 .headline {
-  padding-left:52px;
+  padding-left:5px
 
   &__container {
     width:1280px;
@@ -97,6 +98,7 @@ export default {
 .users {
   display:flex;
   justify-content: flex-start;
+  padding:0;
 
 }
 
